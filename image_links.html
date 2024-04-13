@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #ccc;
+        }
+        section {
+            padding: 20px;
+        }
+        section img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+    </nav>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to KipsTech! Check out the latest technology trends:</p>
+        <a href="https://unsplash.com/photos/turned-on-gray-laptop-computer-XJXWbfSo2f0">
+            <img src="turned-on-gray-laptop-computer-XJXWbfSo2f0.jpg" alt="Technology"></a>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://unsplash.com/photos/a-green-field-with-mountains-in-the-background-eCHp6XMs77s">
+                <img src="nature1.jpg" alt="Nature"></a>
+            <a href="https://unsplash.com/photos/gray-concrete-road-top-between-green-trees-vngzm4P2BTs">
+                <img src="nature2.jpg" alt="Nature"></a>
+            <a href="https://unsplash.com/photos/water-falls-in-the-middle-of-green-grass-field-zpq2DMidOY0">
+                <img src="nature3.jpg" alt="Nature"></a>
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="https://www.istockphoto.com/photo/group-of-healthy-food-for-flexitarian-diet-gm1457433817-492225403">
+                <img src="food1.jpg" alt="Food 1"> Food 1</a></li>
+            <li><a href="https://www.istockphoto.com/photo/food-products-representing-the-nutritarian-diet-gm1473148748-503336489">
+                <img src="food2.jpg" alt="Food 2"> Food 2</a></li>
+            <li><a href="https://www.istockphoto.com/photo/food-products-representing-the-nutritarian-diet-gm1462723853-496033955">
+                <img src="food3.jpg" alt="Food 3"> Food 3</a></li>
+        </ul>
+    </section>
+</body>
+</html>
