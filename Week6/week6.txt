@@ -1,0 +1,22 @@
+Explanation
+Function to Sum Two Numbers:
+
+sum function takes two integers as input and returns their sum.
+For Loop to Print Numbers from 1 to 10:
+
+A for loop iterates from 1 to 10 and prints each number.
+Switch Statement to Check for Different String Values:
+
+checkString function uses a switch statement to print different responses based on the input string value.
+While Loop to Print Numbers from 20 to 10:
+
+A while loop starts at 20 and decrements the number until it reaches 10, printing each number.
+If-Else Statement to Check if a Number is Even or Odd:
+
+checkEvenOdd function checks if a number is even or odd and prints the result.
+Finding the Largest Number in a List:
+
+findLargest function iterates through a list of integers and returns the largest number.
+Try-Catch Block to Catch an Exception and Output an Error Message:
+
+readFile function simulates reading a file and throws an exception which is caught and an error message is printed.
