@@ -1,28 +1,24 @@
-# file_handling_assignment.py
+# File Creation and Writing
+try:
+    with open('my_file.txt', 'w') as file:
+        file.write('This is +254\n')
+        file.write('Kenya is home\n')
+        file.write('Much Love here\n')
 
-# Open the file in write mode
-with open('my_file.txt', 'w') as file:
-    # Write three lines of text
-    file.write('Hello, World!\n')
-    file.write('I love +254\n')
-    file.write('This is Kenya\n')
+        # File Appending
+    with open('my_file.txt', 'a') as file:
+        file.write('We have eight regions/Provinces\n')
+        file.write('With a total 47 counties\n')
+        file.write('Much Love, Much Respect\n')
 
-    # Open the file in read mode
-with open('my_file.txt', 'r') as file:
-    # Read and print the contents of the file
-    contents = file.read()
-    print(contents)
+    # File Reading and Display
+    with open('my_file.txt', 'r') as file:
+        content = file.read()
+        print(content)
 
-# Open the file in append mode
-with open('my_file.txt', 'a') as file:
-    # Append three additional lines of text
-    file.write('Kenya has eight regions/provinces.\n')
-    file.write('With a total of 47 counties\n')
-    file.write('We love each other in our country\n')
-
-    except FileNotFoundError:
+except FileNotFoundError:
     print("The file was not found.")
-try PermissionError:
-    print("You do not have permission to access this file.")
+except PermissionError:
+    print("You don't have the permission to access this file.")
 finally:
-    print("Execution has completed, whether an exception was raised or not.")
+    print("File operations completed.")
